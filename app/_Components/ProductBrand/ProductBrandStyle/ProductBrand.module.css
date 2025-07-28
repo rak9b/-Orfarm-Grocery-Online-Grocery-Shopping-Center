@@ -1,0 +1,14 @@
+.brand {
+  opacity: 50%;
+}
+
+.brandStyle:hover {
+  opacity: 100%;
+  transform: scale(1.2);
+  transition: ease 0.5s;
+  overflow: hidden;
+}
+
+.brandNormal {
+  transition: ease 0.5s;
+}

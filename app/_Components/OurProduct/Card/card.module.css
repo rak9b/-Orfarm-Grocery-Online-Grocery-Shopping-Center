@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cardImage {
+  transition: transform 0.5s;
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: 0;
+  bottom: 200px;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  overflow: hidden;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+}
+
+.card:hover .overlay {
+  height: 20%;
+}
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
+}

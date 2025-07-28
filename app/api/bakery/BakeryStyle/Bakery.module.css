@@ -1,0 +1,13 @@
+.imageStyle:hover {
+  transition: ease-in-out 2s;
+  transform: scale(1.1);
+}
+
+.parentStyle {
+  transition: ease-in-out 2s;
+  overflow: hidden;
+}
+
+.imageParent:hover {
+  overflow: hidden;
+}

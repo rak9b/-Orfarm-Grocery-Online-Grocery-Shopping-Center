@@ -1,0 +1,15 @@
+.category:hover .catCard {
+  width: 100%;
+  transition: 0.5s;
+  left: 0;
+}
+
+.catCard {
+  transition: width 0.5s;
+  left: 0;
+}
+
+.category:hover .title {
+  transition: 0.5s;
+  color: #80b500;
+}

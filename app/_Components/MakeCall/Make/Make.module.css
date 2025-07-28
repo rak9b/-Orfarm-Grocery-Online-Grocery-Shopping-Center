@@ -1,0 +1,5 @@
+.buttonAnimation:hover {
+  transition: ease-in-out 0.5s;
+  color: white;
+  background-color: #80b500;
+}
